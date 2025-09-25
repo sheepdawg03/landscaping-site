@@ -53,33 +53,43 @@
         </div>
       </div>
     </nav>
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-8 px-4 py-z my-5 pt-5 pb-5 text-center">
-          <h1 class="display-3 fw-bold">Kontakt</h1>
-          <h4 class="mt-3 text-muted">
-            Contact us today for a free quote and to learn more about the
-            services we offer.
-          </h4>
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-8 px-4 py-z my-5 pt-5 pb-5 text-center">
-                  <h1 class="display-3 fw-bold">Kontakt</h1>
-                  <h4 class="mt-3 text-muted">
-                    Contact us today for a free quote and to learn more about the
-                    services we offer.
-                  </h4>
-                  <!-- Clickable email link -->
-                  <p class="mt-4">
-                    <a href="mailto:lumicisiludovico@gmail.com" class="btn btn-primary btn-lg">
-                      Send Email
-                    </a>
-                  </p>
-                </div>
-              </div>
-            </div>        
+<!-- Contact section for semantic structure and anchor linking -->
+<section id="contact">
+  <!-- Bootstrap fixed-width container -->
+  <div class="container">
+    <!-- Center the column horizontally -->
+    <div class="row justify-content-center">
+      <!-- Responsive column: full width on mobile, narrower on larger screens.
+           px-4 adds side padding, py-5 vertical padding, my-5 top/bottom margin, text-center centers text -->
+      <div class="col-12 col-md-10 col-lg-8 px-4 py-5 my-5 text-center">
+        <!-- Big, bold heading -->
+        <h1 class="display-3 fw-bold">Kontakt</h1>
+
+        <!-- Lead paragraph for better readability than an H4; muted for softer tone -->
+        <p class="lead mt-3 text-muted">
+          Kontakt os i dag for et gratis tilbud og for at høre mere om de tjenester, vi tilbyder.
+        </p>
+
+        <!-- Button group: stacks on XS (d-grid), sits inline from SM up (d-sm-flex); gap adds spacing -->
+        <div class="d-grid d-sm-flex justify-content-sm-center gap-3 mt-4">
+          <!-- Email CTA -->
+          <a href="mailto:lumicisiludovico@gmail.com"
+             class="btn btn-primary btn-lg"
+             aria-label="Send os en e-mail">
+            E-mail os
+          </a>
+
+          <!-- Phone CTA (international format for reliability) -->
+          <a href="tel:+45 52645776"
+             class="btn btn-success btn-lg"
+             aria-label="Ring til os på +45 12 34 56 78">
+            Ring til os
+          </a>
+        </div>
       </div>
     </div>
+  </div>
+</section>
     <footer
       class="mt-auto text-center text-lg-start"
       style="background-color: #ebebeb"
