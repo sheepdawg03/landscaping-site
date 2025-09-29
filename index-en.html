@@ -69,6 +69,29 @@
         <div class="p-5 mb-4 bg-light" id="smalljumbotron">
 
 
+<!-- OCTOBER DEAL MODAL -->
+<div class="modal fade" id="octoberDealModal" tabindex="-1" aria-labelledby="octoberDealLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content" style="background-color: #ffb347; color: #212529; border: 2px solid #ff8800;">
+      <div class="modal-header" style="border-bottom: none;">
+        <h5 class="modal-title" id="octoberDealLabel" style="font-weight: bold;">OCTOBER DEAL: Winter Is Coming!</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="font-size: 1.5rem; text-align: center;">
+        450kr all inclusive balcony maintenance, hurry up before winter!❄️❄️
+      </div>
+    </div>
+  </div>  
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var myModal = new bootstrap.Modal(document.getElementById('octoberDealModal'));
+    myModal.show();
+  });
+</script>
+
+
       <div class="container">
       <div class="px-4 py-z my-5 text-center pt-5 pb-5">
         <h1 class="display-4 fw-bold">
@@ -85,6 +108,7 @@
         </div>
       </div>
     </div>
+
 
     <div class="container my-4">
 <div class="alert alert-warning" style="background-color: #fff8e1; border-left: 6px solid #ffb347; font-size: 1.15rem;">
