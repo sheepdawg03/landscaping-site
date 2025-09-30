@@ -10,7 +10,46 @@
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Ramabhadra&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <style>
+  /* iOS Safari: stop auto text zooming */
+  html { -webkit-text-size-adjust: 100%; }
+
+  /* Make big headings sane on small screens (no text change) */
+  @media (max-width: 576px) {
+    .display-3 { font-size: 2rem !important; }
+  }
+
+  /* Let long accordion titles wrap; keep your price spans intact */
+  .accordion-button { white-space: normal; }
+  @media (max-width: 576px) {
+    .accordion-button { display: flex; flex-wrap: wrap; align-items: center; gap: .25rem; }
+    /* neutralize fixed left-margins on tiny screens so price can wrap under title */
+    .accordion-button span[style*="margin-left"] { margin-left: 0 !important; }
+  }
+
+  /* Make the main column full-width on phones even if it's .col-8 */
+  @media (max-width: 576px) {
+    .col-8 { flex: 0 0 100% !important; max-width: 100% !important; }
+  }
+
+  /* Images scale correctly */
+  img { max-width: 100%; height: auto; }
+</style>
+
   </head>
+  <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var btn = document.querySelector('.navbar-toggler');
+    if (!btn) return;
+    var target = btn.getAttribute('data-bs-target');
+    if (!target || target.charAt(0) !== '#') return;
+    if (!document.querySelector(target)) {
+      var collapse = document.querySelector('.navbar .collapse.navbar-collapse');
+      if (collapse) collapse.id = target.slice(1);
+    }
+  });
+</script>
+
   <body class="d-flex flex-column min-vh-100">
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
