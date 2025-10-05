@@ -1,47 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
+  <url>
+    <loc>https://altanpro.dk/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="da" href="https://altanpro.dk/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://altanpro.dk/index-en.html"/>
+  </url>
 
-<url>
-  <loc>https://altanpro.dk/</loc>
-  <lastmod>2025-10-03T15:47:06+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://altanpro.dk/services.html</loc>
-  <lastmod>2025-10-05T13:22:50+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://altanpro.dk/contact.html</loc>
-  <lastmod>2025-10-05T13:22:50+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://altanpro.dk/index-en.html</loc>
-  <lastmod>2025-10-05T13:22:51+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://altanpro.dk/index.html</loc>
-  <lastmod>2025-10-05T13:22:51+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://altanpro.dk/services-en.html</loc>
-  <lastmod>2025-10-05T13:22:51+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://altanpro.dk/contact-en.html</loc>
-  <lastmod>2025-10-05T13:22:51+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
+  <url>
+    <loc>https://altanpro.dk/services.html</loc>
+    <lastmod>2025-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="da" href="https://altanpro.dk/services.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://altanpro.dk/services-en.html"/>
+  </url>
 
+  <url>
+    <loc>https://altanpro.dk/contact.html</loc>
+    <lastmod>2025-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="da" href="https://altanpro.dk/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://altanpro.dk/contact-en.html"/>
+  </url>
 
 </urlset>
