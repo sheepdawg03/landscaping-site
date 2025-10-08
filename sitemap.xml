@@ -2,25 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
+  <!-- Home -->
   <url>
     <loc>https://altanpro.dk/</loc>
-    <lastmod>2025-10-05</lastmod>
+    <priority>1.00</priority>
     <xhtml:link rel="alternate" hreflang="da" href="https://altanpro.dk/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://altanpro.dk/index-en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://altanpro.dk/"/>
   </url>
 
+  <url>
+    <loc>https://altanpro.dk/index-en.html</loc>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="da" href="https://altanpro.dk/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://altanpro.dk/index-en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://altanpro.dk/"/>
+  </url>
+
+  <!-- Services -->
   <url>
     <loc>https://altanpro.dk/services.html</loc>
-    <lastmod>2025-10-05</lastmod>
+    <priority>0.80</priority>
     <xhtml:link rel="alternate" hreflang="da" href="https://altanpro.dk/services.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://altanpro.dk/services-en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://altanpro.dk/services.html"/>
   </url>
 
   <url>
+    <loc>https://altanpro.dk/services-en.html</loc>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="da" href="https://altanpro.dk/services.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://altanpro.dk/services-en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://altanpro.dk/services.html"/>
+  </url>
+
+  <!-- Contact -->
+  <url>
     <loc>https://altanpro.dk/contact.html</loc>
-    <lastmod>2025-10-05</lastmod>
+    <priority>0.80</priority>
     <xhtml:link rel="alternate" hreflang="da" href="https://altanpro.dk/contact.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://altanpro.dk/contact-en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://altanpro.dk/contact.html"/>
+  </url>
+
+  <url>
+    <loc>https://altanpro.dk/contact-en.html</loc>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="da" href="https://altanpro.dk/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://altanpro.dk/contact-en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://altanpro.dk/contact.html"/>
   </url>
 
 </urlset>
