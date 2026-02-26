@@ -71,6 +71,15 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+  <style>
+    /* treadmill logo strip animation */
+    .treadmill-strip { overflow: hidden; background: #fff; }
+    .treadmill-track { display: inline-block; white-space: nowrap; animation: treadmill 8s linear infinite; }
+    .treadmill-track img { height: 150px; margin: -5px 20px; vertical-align: middle; }
+    /* slide left by half the track width; track content is duplicated for seamless wrap */
+  @keyframes treadmill { from { transform: translateX(-6%); } to { transform: translateX(0); } }
+  </style>
+
   </head>
 
   <body class="d-flex flex-column min-vh-100">
@@ -111,7 +120,26 @@
       </div>
     </nav>
 
-        <div class="p-5 mb-4 bg-light" id="smalljumbotron">
+      <!-- logo treadmill strip -->
+      <div class="treadmill-strip">
+        <div class="treadmill-track" id="logo-track"></div>
+      </div>
+      <script>
+        // populate the track with a repeated set of images so the animation can shift
+        const track = document.getElementById("logo-track");
+        const logos = 20; // number of distinct logos to show (more than container width)
+        const copies = 2; // duplicate sequence to fill 100% width
+        for (let c = 0; c < copies; c++) {
+          for (let i = 0; i < logos; i++) {
+            const img = document.createElement("img");
+            img.src = "images/blur2.jpg";
+            img.alt = "AltanPro logo";
+            track.appendChild(img);
+          }
+        }
+      </script>
+
+       
 
 
 <!-- OCTOBER DEAL MODAL -->
