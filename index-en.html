@@ -142,16 +142,17 @@
        
 
 
-<!-- OCTOBER DEAL MODAL -->
+<!-- PROMO DEAL  -->
 <div class="modal fade" id="octoberDealModal" tabindex="-1" aria-labelledby="octoberDealLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content" style="background-color: #ffb347; color: #212529; border: 2px solid #ff8800;">
+    <div class="modal-content" style="background-color: #f0dbbe; color: #212529; border: 2px solid #ff8800;">
       <div class="modal-header" style="border-bottom: none;">
-        <h5 class="modal-title" id="octoberDealLabel" style="font-weight: bold;">OCTOBER DEAL: Winter Is Coming!</h5>
+        <h5 class="modal-title" id="octoberDealLabel" style="font-size: 2rem; font-weight: bold;">🌞 SPRING SPECIAL: only 500kr🌞</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body" style="font-size: 1.5rem; text-align: center;">
-        Site under renovation!❄️❄️
+        <div style="font-weight: 700; margin-bottom: 0.75rem;">Cleaning • Sanding • Oiling</div>
+        <div>Book before 31st of May and protect your balcony from the summer sun & weather! ☀️</div>
       </div>
     </div>
   </div>  
@@ -184,14 +185,100 @@
 
 
     <div class="container my-4">
-<div class="alert alert-warning" style="background-color: #fff8e1; border-left: 6px solid #ffb347; font-size: 1.15rem;">
-     <strong>Did you know?</strong> Balcony wood should be cared for <b>twice a year</b>!
-        <br>
-        Once in spring/summer to guard against sun and heat, and again in late summer/autumn to
-        prepare for rain, frost, and snow. Once a year is okay — but many balconies go years
-        without care, and it shows.  
-    <br><b>AltanPro will bring your balcony back to life!</b>
-</div></div>
+      <div class="info-highlight">
+        <strong>Did you know?</strong><br />
+        Balcony wood should be cared for <b>twice a year</b>! Once in spring/summer to guard against sun and heat, and again in late summer/autumn to prepare for rain, frost, and snow. Once a year is okay, but many balconies go years without care, and it shows.
+        <br />
+        <span class="info-highlight-closing">AltanPro will bring your balcony back to life!</span>
+      </div>
+    </div>
+
+    <section class="container project-gallery">
+      <h2 class="project-gallery-title">Take a look at our work:</h2>
+
+      <div class="project-stage">
+        <h3>Before</h3>
+        <div class="project-grid">
+          <a href="./images/IMG_9947.jpeg" class="project-lightbox-trigger">
+            <img src="./images/IMG_9947.jpeg" alt="Balcony before treatment 1" />
+          </a>
+          <a href="./images/IMG_9948.jpeg" class="project-lightbox-trigger">
+            <img src="./images/IMG_9948.jpeg" alt="Balcony before treatment 2" />
+          </a>
+          <a href="./images/IMG_9949.jpeg" class="project-lightbox-trigger">
+            <img src="./images/IMG_9949.jpeg" alt="Balcony before treatment 3" />
+          </a>
+        </div>
+      </div>
+
+      <div class="project-flow-arrow" aria-hidden="true">↓</div>
+
+      <div class="project-stage project-stage-single">
+        <h3>During</h3>
+        <div class="project-grid">
+          <a href="./images/IMG_9955.jpeg" class="project-lightbox-trigger">
+            <img src="./images/IMG_9955.jpeg" alt="Balcony during treatment" />
+          </a>
+        </div>
+      </div>
+
+      <div class="project-flow-arrow" aria-hidden="true">↓</div>
+
+      <div class="project-stage">
+        <h3>After</h3>
+        <div class="project-grid">
+          <a href="./images/IMG_9960.jpeg" class="project-lightbox-trigger">
+            <img src="./images/IMG_9960.jpeg" alt="Balcony after treatment 1" />
+          </a>
+          <a href="./images/IMG_9962.jpeg" class="project-lightbox-trigger">
+            <img src="./images/IMG_9962.jpeg" alt="Balcony after treatment 2" />
+          </a>
+          <a href="./images/IMG_9964.jpeg" class="project-lightbox-trigger">
+            <img src="./images/IMG_9964.jpeg" alt="Balcony after treatment 3" />
+          </a>
+          <a href="./images/IMG_9963.jpeg" class="project-lightbox-trigger">
+            <img src="./images/IMG_9963.jpeg" alt="Balcony after treatment 4" />
+          </a>
+        </div>
+      </div>
+    </section>
+<!-- COOL SLIDE TRANSITION TO WORK ON!
+    <section class="container progress-showcase" data-progress-viewer>
+      <h2 class="progress-showcase-title">Swipe through the progress</h2>
+      <div class="progress-showcase-hint">SWIPE TO SEE PROGRESS!</div>
+      <div class="progress-showcase-frame">
+        <img
+          class="progress-showcase-image"
+          src="./images/IMG_9948.jpeg"
+          alt="Balcony before treatment"
+          data-progress-image
+        />
+      </div>
+      <div class="progress-showcase-controls">
+        <input
+          class="progress-showcase-range"
+          type="range"
+          min="0"
+          max="2"
+          step="1"
+          value="0"
+          data-progress-range
+          aria-label="Drag to see the progress"
+        />
+        <div class="progress-showcase-labels" data-progress-labels>
+          <span class="is-active">Before</span>
+          <span>During</span>
+          <span>After</span>
+        </div>
+      </div>
+    </section>
+ -->
+    <div class="image-lightbox" id="gallery-lightbox" aria-hidden="true">
+      <div class="image-lightbox-dialog">
+        <button class="image-lightbox-close" type="button" aria-label="Close image">&times;</button>
+        <img id="gallery-lightbox-image" src="" alt="" />
+      </div>
+    </div>
 
     <div class="p-5 mb-4 bg-light" id="jumbotron">
       <div class="container-fluid py-3">
@@ -367,6 +454,7 @@
           </div>
         </div>
       </div>
+    </div>
 
     <footer class="mt-auto text-center text-lg-start" style="background-color: #ebebeb;">
       <div class="container pt-4">
@@ -399,7 +487,6 @@
       <div class="text-center p-3 text-light bg-dark">
         AltanPro | Affordable and reliable maintenance of balconies, terraces, and indoor wooden floors
       </div>
-    </div>
     </footer>
     
     <script
@@ -412,5 +499,68 @@
       integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
       crossorigin="anonymous"
     ></script>
+    <script>
+      (() => {
+        const lightbox = document.getElementById("gallery-lightbox");
+        const lightboxImage = document.getElementById("gallery-lightbox-image");
+        const closeButton = lightbox.querySelector(".image-lightbox-close");
+        const triggers = document.querySelectorAll(".project-lightbox-trigger");
+        const progressViewers = document.querySelectorAll("[data-progress-viewer]");
+        const progressSteps = [
+          { src: "./images/IMG_9948.jpeg", alt: "Balcony before treatment" },
+          { src: "./images/IMG_9955.jpeg", alt: "Balcony during treatment" },
+          { src: "./images/IMG_9962.jpeg", alt: "Balcony after treatment" }
+        ];
+
+        const closeLightbox = () => {
+          lightbox.classList.remove("is-open");
+          lightbox.setAttribute("aria-hidden", "true");
+          lightboxImage.src = "";
+          lightboxImage.alt = "";
+        };
+
+        triggers.forEach((trigger) => {
+          trigger.addEventListener("click", (event) => {
+            event.preventDefault();
+            const image = trigger.querySelector("img");
+            lightboxImage.src = trigger.getAttribute("href");
+            lightboxImage.alt = image ? image.alt : "";
+            lightbox.classList.add("is-open");
+            lightbox.setAttribute("aria-hidden", "false");
+          });
+        });
+
+        closeButton.addEventListener("click", closeLightbox);
+        lightbox.addEventListener("click", (event) => {
+          if (event.target === lightbox) closeLightbox();
+        });
+        document.addEventListener("keydown", (event) => {
+          if (event.key === "Escape" && lightbox.classList.contains("is-open")) {
+            closeLightbox();
+          }
+        });
+
+        progressViewers.forEach((viewer) => {
+          const image = viewer.querySelector("[data-progress-image]");
+          const range = viewer.querySelector("[data-progress-range]");
+          const labels = viewer.querySelectorAll("[data-progress-labels] span");
+
+          const renderProgress = (index) => {
+            const step = progressSteps[index];
+            image.src = step.src;
+            image.alt = step.alt;
+            labels.forEach((label, labelIndex) => {
+              label.classList.toggle("is-active", labelIndex === index);
+            });
+          };
+
+          range.addEventListener("input", () => {
+            renderProgress(Number(range.value));
+          });
+
+          renderProgress(Number(range.value));
+        });
+      })();
+    </script>
   </body>
 </html>
